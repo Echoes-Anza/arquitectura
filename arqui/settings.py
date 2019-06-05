@@ -93,7 +93,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'arqui.wsgi.application'
 
-# Password validation
+# Password validatiomm
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
@@ -148,6 +148,8 @@ if not DEBUG:
             'PORT': 'DB_PORT'
         }
     } 
+
+
 
 import django_heroku
 django_heroku.settings(locals())
