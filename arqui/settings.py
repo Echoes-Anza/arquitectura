@@ -91,6 +91,9 @@ TEMPLATES = [
     },
 ]
 
+
+
+
 WSGI_APPLICATION = 'arqui.wsgi.application'
 
 # Password validatiomm
